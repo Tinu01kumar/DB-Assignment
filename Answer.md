@@ -20,9 +20,8 @@ Ans:
       in product table i will define  foreign key constraint that references the primary key(id) of the product_category table. This will insure that any value inserted into category_id must exist as a valid category id in the product_category table.
 
   2.software Logic(Maintaining a List and Admin Approval)
-      i am going to maintains a separate list of all existing categories just like for book we have only two categories i.e (Fiction , non-fiction)
-
-      if user try to give other categories like "mystery" then either i will give error message or in admin side i will create another categories type i.e "mystery" and this categories later be approved by admin if it is correct according to admin.
+      i am going to maintains a separate list of all existing categories just like for book we have only two categories i.e (Fiction , non-fiction).
+      If user try to give other categories like "mystery" then either i will give error message or in admin side i will create another categories type i.e "mystery" and this categories later be approved by admin if it is correct according to admin.
 
    3.Default Category but Manual Intervention required
      if user does not give any category then on that time default category will assign However, an administrator will be required to manually assign the proper category to the product on the admin side
